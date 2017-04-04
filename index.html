@@ -8,16 +8,31 @@
 </head>
 <body>
 	<h1 class="header"> Flash Card App </h1>
+	<div class="mainContainer" >
+	<div class="topicsContainer">
+		<h2 id="topicsHeader">Topics</h2>
+		<div class="topics" id="topicListDiv">
+		</div>
+	</div>
 	<div class="flashCardContainer" id="fcCont">
 		<div class="card" id="fcard">
 			<div class="questionSide">
-				<h4> Question Content </h4>
+				<h4> What are the 7 data types in JavaScript? </h4>
 			</div>
 			<div class="answerSide">
-				<h4> Answer Content </h4>
+				<ol> 
+					<li>Object</li>
+					<li>null</li>
+					<li>undefined</li>
+					<li>String</li>
+					<li>Number</li>
+					<li>Boolean</li>
+					<li>Symbol</li>
+				</ol>
 			</div>
 		</div>
 		<p>'click to flip card'</p>
+	</div>
 	</div>
 <script type='text/javascript' src='./scripts/index.js'></script>
 </body>
