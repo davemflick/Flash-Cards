@@ -1,7 +1,8 @@
 console.log('Connected')
 
 const flashCard = document.getElementById("fcard");
-const cardContain = document.getElementById("fcCont");
+const button = document.getElementById("flipBtn");
 
-fcCont.addEventListener('click',function(){flashCard.classList.toggle("flipped"), console.log(flashCard.classList)} )  
+button.addEventListener('click',function(){flashCard.classList.toggle("flipped")})  
 
+document.querySelector(".answerSide").addEventListener("click",function(){console.log("this")} )

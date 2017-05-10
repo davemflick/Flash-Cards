@@ -54,6 +54,7 @@ h4 {
 	padding: 15%;
 }
 
+
 .card
 .questionSide {
 	background-color: white;
@@ -63,6 +64,7 @@ h4 {
 .answerSide {
 	transform: rotateY(180deg);
 	background-color: red;
+	
 }
 
 .card { transform-origin: right center; }
@@ -70,6 +72,8 @@ h4 {
 .card.flipped {
 	transform: translateX(-100%) rotateY(-180deg);
 }
+
+.card.flipped .card {position: relative;}
 
 
 
